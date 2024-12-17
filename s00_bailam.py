@@ -72,7 +72,7 @@ def get_24hformat_hour(hour_str):
   elif is_am and hour == 12:
     hour = 0
 
-  return hour
+  return int(hour)
 def greeting(hour_str):
     hour = get_24hformat_hour(hour_str)
 
